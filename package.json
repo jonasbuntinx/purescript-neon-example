@@ -1,7 +1,7 @@
 {
   "name": "purescript-neon-example",
   "version": "0.1.0",
-  "description": "A example using PureScript and Neon",
+  "description": "Simple example app using Neon with Purescript",
   "keywords": [
     "Purescript",
     "Node.js",
@@ -20,7 +20,7 @@
     "build:spago": "spago build",
     "release": "npm run build:clean && npm run release:spago && npm run release:esbuild",
     "release:spago": "spago -x spago.production.dhall build",
-    "release:esbuild": "esbuild index.js --bundle  --loader:.node=copy --outdir=dist --platform=node",
+    "release:esbuild": "esbuild index.js --bundle --loader:.node=copy --outdir=dist --platform=node",
     "clean": "rm -Rf output node_modules .spago *-lock.json",
     "postinstall": "spago install",
     "test": "spago test --no-install"
