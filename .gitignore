@@ -1,0 +1,23 @@
+# Dependencies
+bower_components
+node_modules
+.psc-package
+.spago
+
+# Caches
+.cache
+.pulp-cache
+
+# Dot files
+.psc*
+.purs*
+.psa*
+
+# Logs
+*.log
+
+# Generated
+generated-docs
+output
+output-es
+dist
