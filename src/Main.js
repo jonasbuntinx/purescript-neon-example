@@ -1,3 +1,9 @@
-import * as  cpuCount from "../../packages/cpu-count";
+import * as bevy from "../../packages/bevy";
 
-export const get = cpuCount.get
+export const mkApp = bevy.mkApp
+
+export const addPlugins_ = bevy.addPlugins
+
+export const addStartupSystem_ = bevy.addStartupSystem
+
+export const run_ = bevy.run
